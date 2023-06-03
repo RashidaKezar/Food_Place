@@ -1,0 +1,781 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/* navigation bar */
+.logo {
+width: 150px;
+height: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    position: fixed;
+    padding: 16px;
+    width: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    color: #000;
+    padding: 9.6px 20.8px;
+
+}
+
+.active , .nav-link :hover {
+    background-color: #deb887;
+}
+
+ul,li {
+    margin: auto;
+    display: flex;
+}
+
+ul {
+    margin-right: 32px;
+}
+.header-div {
+    background-image :  url('Bg_1.jpg');
+    height: 65%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    
+}
+
+.header-div h1, p {
+    color: white;
+}
+
+.header-div a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid #deb887;
+    padding: 15px;
+    margin-top: 2.5;
+    border-radius: 4px;
+
+}
+
+a:hover {
+    background-color: #deb887;
+}
+
+.heading-font-family {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Story section */
+
+#story-section {
+    width: 100%;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-img {
+    max-height: 325px;
+    box-shadow: -12px -12px #deb887;
+    padding-left: 5px;
+}
+
+.story {
+    width: 55%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.story-heading {
+    font-size: 32px;
+    padding: 16px;
+}
+
+.story-subheading {
+    font-size: 16px;
+    color: black;
+}
+
+.story-info {
+    font-size: 18px;
+    color: black;
+}
+
+.h1-color {
+    color: #deb887;
+}
+
+.reserve {
+    border: 3px solid burlywood;
+    color: black;
+    border-radius: 3px;
+    padding: 16px;
+    margin: auto;
+    display: inline-block;
+
+}
+
+.reserve:hover {
+    
+    background-color: #deb887;
+
+}
+
+.reserve a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+/* quote section */
+.quote-section {
+    height: 304px;
+    background-image: url('Bg_5.jpg');
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quote {
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 96px;
+
+}
+
+.quote-credit {
+    font-size: 19.2px;
+    text-align: center;
+    padding-left: 320px;
+
+}
+/* Menu items */
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu-section{
+    text-align: center;
+}
+.menu-heading{
+    font-size: xx-large;
+}
+.menu-nav{
+    width: 40%;
+    margin-inline: auto;
+
+}
+.menu-nav ul{
+    margin-inline: auto;
+    padding: 10px;
+}
+.menu-border{
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 0 40px;
+}
+.menu-link{
+    text-decoration: none;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 9.6px 20.8px;
+    text-transform: uppercase;
+}
+.active-menu {
+    background-color: #deb887;
+
+}
+.menu-link:hover{
+    background-color: #deb887;
+}
+
+.drink1 {
+    background-image: url('Drinks_1.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+.drink2 {
+    background-image: url('Drinks_2.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+.drink3 {
+    background-image: url('Drinks_3.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+
+.lunch1 {
+    background-image: url('Lunch_1.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+
+
+.lunch2 {
+    background-image: url('Lunch_2.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+
+.lunch3 {
+    background-image: url('Lunch_3.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+
+.dinner1 {
+    background-image: url('Dinner_1.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+
+.dinner2 {
+    background-image: url('Dinner_2.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+
+
+.dinner3 {
+    background-image: url('Dinner_3.jpg');width: 350px ; height: 250px;
+    
+}
+
+.items {
+    background-size: cover; 
+    margin: 27px 16px;
+}
+
+.item-heading {
+    font-size: 25.6px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align: left;
+    padding: 32px 16px 16px 32px;
+}
+
+.item-info {
+    font-size: 12.8px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+    text-align: left;
+    margin: 8px 32px 32px 32px;
+
+}
+
+.price {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 8px 32px 16px 12.8px;
+}
+
+/* gallery */
+#gallery-section {
+text-align: center;
+}
+
+
+.gallery-heading {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px;
+}
+
+.gallery-info {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 48px;
+    color: #000;
+}
+
+.gallery-img {
+    height: 250px;
+    width: 350px;
+    margin: 24px 16px;
+    transition: width height linear 0.5s;
+}
+
+.gallery-img:hover {
+    width: 400px;
+    height: 300px;
+}
+/* customer review */
+.customer-section {
+    text-align: center;
+}
+
+.customer-heading {
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px;
+}
+
+.customer-info {
+    color: #000;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 48px;
+}
+
+.customer-img {
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #e4e4e4;
+    padding: 6.4px;
+}
+
+.customer-name {
+    color: #deb887;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 24px;
+}
+.customer-design {
+    color: #000;
+    font-size: 14.4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 12.8px;
+    margin-bottom: 5px;
+}
+
+.customer-review {
+    color: #000;
+    font-size: 12.8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 32px;
+    line-height: 25px;
+}
+
+/* footer */
+.footer{
+    display: inline-flex;
+    overflow: hidden;
+    height: 352px;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 48px;
+}
+.footer-elements{
+    max-height: 200px;
+    width: 20%;
+    margin: 16px 32px;
+    color: #fff;
+    margin-bottom: 10%;
+}
+.footer-heading{
+    border-bottom: 2px dotted rgba(207,116,113,0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19.2px;
+    font-weight: 100;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-description{
+    font-size: 12.8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    line-height: 25px;
+}
+/* form */
+.email{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 12.8px;
+    width: 100%;
+}
+.subscribe{
+    background-color: #d0a772;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12.8px;
+    line-height: 25px;
+    width: 100%;
+}
+/* socials */
+
+.social{
+    margin-top: 32px;
+}
+.fab, .far{
+    font-weight: 400;
+}
+.fa, .fab, .fad, .fal, .far, .fas{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.copy-right{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 48px;
+    text-align: center;
+}
+
+
+.contact-info {
+    clear: both;
+    margin: auto;
+    background-color: #d0a772;
+    color: #fff;
+}
+.contact {
+    display: inline-block;
+    width: 32%;
+    padding: 32px;
+    text-align: center;
+}
+
+.fas {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialised;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 40px;
+    margin: 24px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 21.288px ;
+    margin-block-end: 21.288px;
+    font-weight: bold;
+}
+
+.contact-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+.fas {
+    font-size: 40px;
+    margin: 24px;
+}
+
+.contact-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    display: inline-block;
+    width: 32%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.fas {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialised;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 40px;
+    margin: 24px;
+}
+ 
+.contact-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
